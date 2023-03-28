@@ -1,0 +1,243 @@
+body.home{
+    background-color: black;
+}
+body{
+    /* background-color: rgb(243, 243, 243); */
+    background-color: black;
+}
+h1,h2,h3{
+    font-family: 'Secular One', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    /* background-color: rgb(4, 184, 184); */
+   
+   
+}
+.nav-link{
+    color:rgb(42, 159, 159);
+}
+.nav-link:hover{
+    color: rgb(244, 250, 251);
+    background-color: rgb(104, 186, 186);
+}
+.navbar-toggler{
+    background-color:rgb(3, 137, 155);;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    outline: none -webkit-focus-ring-color;
+    box-shadow:none;
+}
+
+
+.dropdownbtn {
+   
+    color:rgb(42, 159, 159);
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    background-color:rgb(0, 0, 0);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(104, 186, 186);
+    min-width: 120px;
+    z-index: 1;
+   
+  }
+  
+  .dropdown-content a {
+    color:#2d5153;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropdownbtn {background-color: rgb(104, 186, 186);
+    color:white;
+}
+
+
+
+
+h4, h1, h2{
+    color: rgb(3, 126, 142);
+}
+#welcome_p{
+    text-align: right;
+}
+.h1, .h3{
+    line-height:19px;
+    font-family: 'Secular One', sans-serif;
+    font-weight:bolder;
+    font-size: 50px;
+    margin-top:2px;
+    color:rgb(42, 159, 159);
+}
+#content_1{
+    border-right: 2px solid rgb(156, 192, 192);
+}
+.content{
+    color:rgb(65, 67, 67);
+    margin-bottom: 80px;
+}
+.navbar-brand{
+    color:rgb(42, 159, 159);
+    font-weight: bolder;
+    font-size:25px;
+    font-family: 'Secular One', sans-serif;
+}
+.navbar-brand:hover{
+    color: rgb(244, 250, 251);
+   
+}
+
+
+
+.about_me{
+    position: relative;
+}
+.about_me svg{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.HomeContent {
+    position: absolute;
+    top: 20%;
+   
+  }
+#home_container{
+    position: relative
+}
+#home_container1, #home_container2 p{
+    /* font-family: 'Secular One', sans-serif; */
+    color:rgb(121, 141, 141);
+    font-size:25px;
+}
+#btnaboutme{
+    background-color: #03899B;
+    color:#19353b;
+    font-weight: bold;
+}
+#btnaboutme:hover{
+    background-color: #01a4b9;
+    color:#afd5dd;
+    font-weight: bold;
+}
+
+
+/* SKILLS */
+* {box-sizing:border-box}
+#container_skills{
+    width: 100%;
+    padding: 0px;
+    margin-bottom:20px;
+    background-color: #2d5153;
+  }
+#skill_container{
+    background-color:  rgb(7, 175, 197);
+  
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+.skills_col{
+    background-color:  rgb(3, 137, 155);
+  
+}
+  .skills_col p{
+   
+    color:#20525d;
+    font-size: 20px;
+}
+.PaintTool {width: 90%; background-color: #14c2b9;}
+.Photoshop {width: 80%; background-color: #14c2b9;}
+.Procreate {width: 65%; background-color: #14c2b9;}
+.Illus {width: 60%; background-color: #14c2b9;}
+
+#col_experience .lead{
+    font-size: 30px;
+    border-bottom: 2px solid #20525d;
+}
+#col_experience .col{
+    padding-left:50px;
+}
+
+/* CONTACT */
+
+.contact_col{
+    position: relative;
+}
+.svg_contact{ 
+   z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0px;
+}
+.contact_col .container{
+    z-index: 3;
+    position: relative;
+    margin-top: px;
+}
+.contact_col form{
+    margin-top: 70px;
+}
+.contact_col button{
+    background-color:  #20525d;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#form_box{
+    background-color: #7ed0d7;
+    margin-top:80px;
+   
+}
+#col_pages{
+    margin-top:80px;
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top:80px;
+    height:200px;
+}
+.footer p{
+    text-align: center;
+    padding-top:80px;
+}
+.footer .container{
+    border-top: 2px solid #03899B;
+}
+
+/* GALLERY */
+
+.item{
+    transition: .5s ease-in-out;
+}
+.item:hover{
+    filter: brightness(80%);
+}
